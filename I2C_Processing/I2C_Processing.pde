@@ -6,7 +6,7 @@ int contador = 0;
 void setup() {
   size(600, 400);
   
-  String portName = "COM2";
+  String portName = "COM4";
   puerto = new Serial(this, portName, 9600);
   puerto.bufferUntil('\n');
   
